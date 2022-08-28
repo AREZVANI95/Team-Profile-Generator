@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.0.1"
+  },
+  "name": "team-profile-generator",
+  "description": "Generate a profile web for current teams that you will be working on or are currently working with.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AREZVANI95/Team-Profile-Generator.git"
+  },
+  "author": "Amir R.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AREZVANI95/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/AREZVANI95/Team-Profile-Generator#readme"
+}
