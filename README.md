@@ -16,7 +16,7 @@ Application that will generate a profile for a current/upcoming team, based on u
 ![Displaying-Code](src/img/Static-Site.PNG)
 
 ## Video Demonstrating App:
-- https://watch.screencastify.com/v/49sU9JnDz32hmwznqcGy
+- https://watch.screencastify.com/v/7ZhBzTGelepPmM0XktSP
 
 ## Installation:
 - Download the ZIP file or clone the repository
