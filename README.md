@@ -24,7 +24,7 @@ Application that will generate a profile for a current/upcoming team, based on u
 ## Usage:
 - Open in the Terminal or in Bash
 - Make sure you are in the right folder-path.
-- Type/Run 'node Develop/index.js
+- Type/Run 'node index.js
 - Answer the following questionnaire.
 - When completed a 'index.html' will be added to the folder.
 
