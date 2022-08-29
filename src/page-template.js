@@ -17,7 +17,7 @@
 
     <header>
     
-      <div class="card">
+      <div class="container">
 
         <div class = "team">
           <h1> My Team </h1>
