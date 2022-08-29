@@ -38,16 +38,14 @@ const employeePrompt = () => {
                 }
             ]
         }])
-        .then(answer => {
+        .then( answer => {
             if (answer.employeeType === 'addEngineer') { engQuestions(); }
             if (answer.employeeType === 'addIntern') { intQuestions(); }
             if (answer.employeeType === 'addManager') { manQuestions(); };
             if (answer.employeeType === 'done') {
                 let html = template(employeesArray)
                 console.log('...');
-
                 writeFile(html);
-
             }
 
         })
@@ -57,7 +55,7 @@ const employeePrompt = () => {
 const engQuestions = () => {
     inquirer.prompt(engineerQuestions)
     .then(( answers ) => {
-        answers = new Manager(answers.name, answers.id, answers.email, answers.github)
+        answers = new Engineer(answers.name, answers.id, answers.email, answers.github)
         employeesArray.push(answers);
         return employeePrompt();
     })
@@ -67,7 +65,7 @@ const engQuestions = () => {
 const intQuestions = () => {
     inquirer.prompt(internQuestions)
     .then(( answers ) => {
-        answers = new Manager(answers.name, answers.id, answers.email, answers.school)
+        answers = new Intern(answers.name, answers.id, answers.email, answers.school)
         employeesArray.push(answers);
         return employeePrompt();
     })
